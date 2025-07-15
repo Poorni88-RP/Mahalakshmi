@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML Elements</title>
+</head>
+<body>
+
+    <!-- Headers -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Paragraph and Text Formatting -->
+    <p>This is a <strong>paragraph</strong> with some <em>emphasized</em> and <u>underlined</u> text.</p>
+    <p>This is a <mark>highlighted</mark> text example. This is <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+
+    <!-- Links and Images -->
+    <a href="https://www.example.com">Visit Example</a><br><br>
+    <img src="https://t3.ftcdn.net/jpg/05/56/29/10/360_F_556291020_q2ieMiOCKYbtoLITrnt7qcSL1LJYyWrU.jpg" alt="Sample Image">
+
+    <!-- Lists -->
+    <h3>Ordered List:</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <h3>Unordered List:</h3>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+    <h3>Definition List:</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <!-- Blockquote and Code -->
+    <blockquote cite="https://www.example.com">
+        "This is a blockquote example."
+    </blockquote>
+    
+    <pre><code> // This is a code block example
+    console.log("Hello, World!");
+    </code> </pre>
+
+    <!-- Table -->
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Form Elements -->
+    <h3>Form Example:</h3>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <fieldset>
+            <legend>Choose your favorite color:</legend>
+            <input type="radio" id="red" name="color" value="red">
+            <label for="red">Red</label>
+            
+            <input type="radio" id="blue" name="color" value="blue">
+            <label for="blue">Blue</label>
+            
+            <input type="radio" id="green" name="color" value="green">
+            <label for="green">Green</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select your hobbies:</legend>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading</label>
+
+            <input type="checkbox" id="traveling" name="hobby" value="traveling">
+            <label for="traveling">Traveling</label>
+
+            <input type="checkbox" id="cooking" name="hobby" value="cooking">
+            <label for="cooking">Cooking</label>
+        </fieldset>
+
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h3>Audio and Video:</h3>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video controls width="300">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
